@@ -1,0 +1,207 @@
+body {
+  margin: 0px;
+  background-color: #FDF7FA;
+}
+
+header {
+  font-family: 'Audiowide', cursive;
+  color: #FDF7FA;
+  background-color: #1446A0;
+  padding: 10px 60px;
+}
+
+hr {
+  margin: 30px 0px;
+}
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+h2 {
+  text-align: center;
+}
+
+main {
+  font-family: 'Montserrat', sans-serif;
+}
+
+main h2 {
+  text-align: center;
+  margin: 30px;
+}
+
+.wrapper {
+  width: 80%;
+  margin: 20px auto;
+}
+
+ul {
+  margin: 20px 20px 20px 0;
+}
+
+#nav-list {
+  list-style: none;
+  display: flex;
+  background-color: #3C3C3B;
+  margin: 0;
+  padding: 20px;
+  justify-content: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#nav-list a {
+  color: #FDF7FA;
+}
+
+#nav-list :hover {
+  color: #DB3069;
+}
+
+main li {
+  padding-left: 20px;
+}
+
+.callout {
+  background-color: #3C3C3B;
+  color: #FDF7FA;
+  margin: 10px;
+}
+
+#intro-section {
+  display: flex;
+  flex-direction: column;
+}
+
+#intro-img-holder {
+  flex: 1;
+}
+
+#intro-info {
+  flex: 1;
+}
+
+
+img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.text-col {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  padding: 10px;
+  margin: 8px;
+}
+
+.group {
+  display: flex;
+  flex-direction: column;
+}
+
+.item {
+  flex: 1;
+}
+
+.item-triple {
+  flex: 5;
+}
+
+.btn {
+  background-color: #3C3C3B;
+  border-radius: 8px;
+  text-align: center;
+}
+
+#projects-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+.project-item {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  margin: 8px 0;
+}
+
+@media all and (min-width: 800px) {
+  .group {
+    flex-direction: row;
+  }
+
+  h1 {
+    text-align: left;
+  }
+
+  h2 {
+    text-align: left;
+  }
+
+  .btn-center {
+    padding-top: 65px;
+  }
+
+  img {
+    width: 80%;
+  }
+
+  .text-col {
+    width: 50%;
+  }
+
+  #projects-container {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+  }
+
+  .project-item {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    margin: 0 8px;
+  }
+
+  .wrapper {
+    width: 60%;
+  }
+
+  #nav-list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    background-color: #3C3C3B;
+    margin: 0;
+    padding: 20px;
+    justify-content: flex-end;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  #nav-list a {
+    color: #FDF7FA;
+  }
+
+  #intro-section {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+a:link {
+  color: #FDF7FA;
+}
+
+a:visited {
+  color: #F5D547;
+}
+
+a:hover {
+  color: #DB3069;
+}
