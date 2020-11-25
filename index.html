@@ -26,9 +26,9 @@
     </header>
     <nav>
       <ul id="nav-list">
-        <li><a href="#" target="_blank">About</a></li>
-        <li><a href="#" target="_blank">Projects</a></li>
-        <li><a href="#" target="_blank">Contact</a></li>
+        <li><a href="#about-section">About</a></li>
+        <li><a href="#projects-section">Projects</a></li>
+        <li><a href="#contact-section">Contact</a></li>
       </ul>
     </nav>
     <main>
@@ -56,72 +56,130 @@
         </section>
 
         <hr />
+        <section id="about-section">
+          <h2>About</h2>
 
-        <h2>About</h2>
+          <p>
+            I am currently taking the Engineering Flex program at Thinkful and
+            picking up new skills every day. In my spare time I am working
+            towards getting my CompTIA A+ certification because I want to have a
+            full understanding of computers and software. While working towards
+            both of these goals I have learned the value of teamwork and
+            collaboration. Collaborating with other capable programmers has
+            become an integral and irreplacable aspect of my work.
+          </p>
 
-        <p>
-          I am currently taking the Engineering Flex program at Thinkful and
-          picking up new skills every day. In my spare time I am working towards
-          getting my CompTIA A+ certification because I want to have a full
-          understanding of computers and software. While working towards both of
-          these goals I have learned the value of teamwork and collaboration.
-          Collaborating with other capable programmers has become an integral
-          and irreplacable aspect of my work.
-        </p>
-
-        <p>
-          I am in the beginning stages of my full stack journey and as such my
-          current work capacity is limited. That capacity is growing daily and I
-          hope to offer an array of services. At this stage, no project is too
-          small or too large.
-        </p>
-
-        <hr />
-
-        <h2>Projects</h2>
-        <div id="projects-container">
-          <div class="project-item btn">
-            <a
-              href="https://webbrantdev.github.io/api-capstone/"
-              target="_blank"
-              >API Capstone</a
-            >
-          </div>
-          <div class="project-item btn">
-            <a href="https://webbrantdev.github.io/NPS-search/" target="_blank"
-              >National Park Search</a
-            >
-          </div>
-        </div>
+          <p>
+            I am in the beginning stages of my full stack journey and as such my
+            current work capacity is limited. That capacity is growing daily and
+            I hope to offer an array of services. At this stage, no project is
+            too small or too large.
+          </p>
+        </section>
 
         <hr />
+        <section id="projects-section">
+          <h2>Projects</h2>
+          <div id="projects-container">
+            <div class="project-item">
+              <h3>API Capstone</h3>
+              <p>
+                An Arsenal fan site/information aggregator. Created for Arsenal
+                fans that want information about the club and upcoming games all
+                in one place. Built using HTML, CSS, JS, and Jquery. Utilizes
+                multiple APIs to asynchronously give the user up to date
+                information.
+              </p>
+              <div class="project-item-links">
+                <a
+                  class="btn item"
+                  href="https://webbrantdev.github.io/api-capstone/"
+                  target="_blank"
+                  >Live Website</a
+                >
+                <a
+                  class="btn item"
+                  href="https://github.com/WebBrantDev/api-capstone"
+                  target="_blank"
+                  >GitHub Repo</a
+                >
+              </div>
+            </div>
+            <div class="project-item">
+              <h3>National Park Search</h3>
+              <p>
+                A web app built for users that want a list of National Parks,
+                and information about those parks, available to them in a
+                particular state. Also allows the user to search for parks that
+                exist in multiple states. Built using HTML, CSS, JS, and Jquery.
+              </p>
+              <div class="project-item-links">
+                <a
+                  class="btn item"
+                  href="https://webbrantdev.github.io/NPS-search/"
+                  target="_blank"
+                  >Live Website</a
+                >
+                <a
+                  class="btn item"
+                  href="https://github.com/WebBrantDev/NPS-search"
+                  target="_blank"
+                  >GitHub Repo</a
+                >
+              </div>
+            </div>
+          </div>
+        </section>
 
-        <div>
+        <hr />
+        <section id="contact-section">
           <h2>Contact</h2>
 
           <p>
             I am currently looking for new and exciting opportunities, so please
             feel free to contact me:
           </p>
-          <div class="group">
-            <a
-              class="item btn"
-              href="https://github.com/WebBrantDev"
-              target="_blank"
-              >GitHub</a
+          <div id="contact-container">
+            <form
+              id="email-form"
+              class="item"
+              action="https://formspree.io/f/xdoplavr"
+              method="POST"
             >
-            <a
-              class="item btn"
-              href="https://www.linkedin.com/in/brant-smith-255678114/"
-              target="_blank"
-              >LinkedIn</a
-            >
-            <a class="item btn" href="mailto:brant.lee.smith88@gmail.com"
-              >Email</a
-            >
-            <a class="item btn" href="tel:610-389-8603">610-389-8603</a>
+              <label>
+                Name:
+                <input type="text" name="name" />
+              </label>
+              <label>
+                Email:
+                <input type="email" name="_replyto" />
+              </label>
+              <label>
+                Message:
+                <textarea name="message"></textarea>
+              </label>
+              <button type="submit">Send</button>
+            </form>
+            <div class="group item">
+              <a
+                class="item btn"
+                href="https://github.com/WebBrantDev"
+                target="_blank"
+                >GitHub</a
+              >
+              <a
+                class="item btn"
+                href="https://www.linkedin.com/in/brant-smith-255678114/"
+                target="_blank"
+                >LinkedIn</a
+              >
+              <a class="item btn" href="mailto:brant.lee.smith88@gmail.com"
+                >Email</a
+              >
+              <a class="item btn" href="tel:610-389-8603">610-389-8603</a>
+            </div>
           </div>
-        </div>
+        </section>
       </div>
     </main>
   </body>
